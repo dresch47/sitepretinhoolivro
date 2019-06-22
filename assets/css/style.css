@@ -1,0 +1,318 @@
+
+
+body{
+  margin:0;
+}
+
+.barra-topo{
+  height: 45px;
+  background-color: #87D7FF;
+}
+.header-site{
+  background-image: url(../images/monte2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titulo h1{
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+ 
+  text-shadow: 22px -42px 4px #077ae8, -25px -25px 4px #40d7ed, 32px 8px 4px #0a3666;
+
+}
+.dizeres h2{
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+
+.img_logo{
+ 
+ width: 200px;
+ height: auto;
+ 
+
+}
+@keyframes anima{
+  
+  0% {background-color:red; top:calc(50% - 100px); left:calc(50% - 100px);}
+  /*20% {background-color:#9becda; top:0px; left:500px;}
+  40% {background-color:#27a287; top:500px; left:0px;}
+  60% {background-color:#fdbbeb; top:500px; left:500px;}*/
+  100% {background-color:#fff; top:0px; left:0px;}
+ /* 100%{background-color:red; top:calc(50% - 100px); left:calc(50% - 100px);}*/
+}
+.header-comprar{
+ 
+ 
+  /*position:absolute;
+  left:calc(50% - 100px);
+  top:calc(50% - 100px);*/
+  
+  animation-name:anima;
+  animation-duration:0.5s;
+  animation-delay:0.3s;
+  animation-iteration-count:infinite;
+  font-size: 25PX;
+  color: #000;
+  text-align: center;
+}
+.header-title{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.content-site{
+  
+  padding-top:20px;
+  padding-bottom: 50px;
+
+}
+.content-livro{
+  display: flex;
+
+}
+.side1{
+  flex:1;
+
+}
+.side2{
+  flex:3;
+  margin:20px;
+ 
+}
+
+.content-cofre-home{
+  /*display: flex;*/
+}
+.side-cofre1{
+  flex:2;
+}
+.side-cofre2{
+  flex:3;
+}
+.video-cofre{
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.video-cofre-int{
+  padding: 10px;
+}
+
+.img-site{
+  background-image:url(../images/violao.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  padding-top: 198px;
+  padding-bottom: 230px;
+}
+.footer-site{
+  background-color: #000000;
+  max-width: auto;
+  margin:auto;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.thanks>h1{
+   color: #fff;
+   text-align: center;
+   font-size: 50px;
+}
+  #kit{
+       text-align: center;
+       color: #33bbff;  
+       font-size: 20px;  
+
+      
+  }
+  .img-cofre{
+  background-image:url(../images/cofre/cofre.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-attachment: relative;
+  padding-top: 50px;
+  padding-bottom: 250px;     
+       
+  }
+  .contato{
+       padding-bottom: 17px;
+       margin-left: 4px;
+
+  }
+  ul li a{
+    font-size: 20px;
+    color: #80bfff !important;
+    margin: 10px;
+  }
+  
+  .links_redes a{
+    margin: 10px;
+  }
+  .centralizado{
+    margin:0 !important;
+    float: none !important;
+  }
+  .container>.capa{
+   
+    align-items: center !important;
+  }
+  .header-Bolso, .main-livro{
+    background-color: #e0ebeb;
+    
+
+  }
+  
+  .col-main-livro{
+    display: flex;
+   padding: 10px;
+    align-items: center;
+
+  }
+  .col-header-bolso{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+  }
+   .main-carousel{
+    
+    display: flex;
+    justify-content: center;
+
+   }
+   .header-buy{
+    display: flex;
+    justify-content: space-evenly;
+   }
+   .carousel-indicators li{
+    background-color: #ccc;
+   }
+   .carousel-indicators .active{
+    background-color: #80D4FF;
+   }
+
+
+   @media only screen and (max-width: 768px){
+    .header-site{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+   
+   
+     }
+
+   }
+
+   @media only screen and (max-width: 375px){
+    .header-site{
+      display: none;
+     }
+     .side1{
+      padding: 10px;
+     }
+     .titulo{
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-shadow: 8px -8px 2px #077ae8, -8px -8px 2px #40d7ed, 8px -8px 2px #0a3666;
+    }
+    .dizeres{
+      color: #fff;
+      font-size: 14px;
+      text-align:center;
+
+
+    }
+    .content-livro{
+      display: inline-block;
+
+    }
+    .video-cofre {
+      height: 200px;
+    }
+    .video-cofre video{
+        background-color: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        height: 200px;
+    }
+    .carousel-item>img{
+      width: 300px;
+    }
+    .header-buy{
+      display: inline;
+    }
+    .img-site{
+      display: none;
+    }
+    .thanks>h1{
+      font-size: 20px;
+    }
+    
+    
+
+   }
+
+   @media only screen and (min-width:320px) and (max-width:768px){
+       .content-site{
+        padding-top: 0;
+        padding-bottom: 0;
+       }
+       .content-livro{
+        display: inline;
+  
+       }
+       .thanks>h1{
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+      }
+
+}
+
+@media only screen and (min-width:2560px){
+      .thanks>h1{
+      font-size: 90px;
+    }
+}
+
+ @media only screen and (min-width:1440px) and (max-width:2559px){
+       .thanks>h1{
+      font-size: 80px;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1439px){
+       .thanks>h1{
+      font-size: 60px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+       .thanks>h1{
+      font-size: 50px;
+    }
+}
