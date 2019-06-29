@@ -21,9 +21,10 @@
   <meta name="description" content="História de superação do Pretinho" >
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalaber=no,shrink-to-fit=no" />
   
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+  <script src="../assets/js/script.js"></script>
+  <link rel="stylesheet" href="../assets/css/style.css" />
 </head>
 <body>
 
@@ -77,8 +78,8 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <h3>(27) 9 9900-1122 </h3>
-                    <h3>(27) 9 9911-2233 </h3>  
+                    <h3>(27)  99692-6624</h3>
+                    <h3>(27)  98897-1491 </h3>  
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -90,6 +91,7 @@
           </a>
 
         </div>
+
 
 
 
@@ -120,12 +122,14 @@
     
   </div>
 
- 
-<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256    -WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  
 
-   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+ 
+<script src="https://code.jquery.com/jquery-3.4.1.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
     <script src="../assets/js/bootstrap.min.js" ></script>
+
 
    
 
