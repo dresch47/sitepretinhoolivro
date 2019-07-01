@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142120884-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-142120884-1');
-</script>
-
+ 
   <title> Página do Pretinho</title>
   <meta name="author" content="Carlos Dresch">
   <meta charset="UTF-8"  />
@@ -23,18 +14,21 @@
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
-  <script src="../assets/js/script.js"></script>
-  <link rel="stylesheet" href="../assets/css/style.css" />
+  <script src="assets/js/script.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
+ 
 
-   <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
     <div class="container">
 
 
       <div class="logo_assinatura">
-        <a class="navbar-brand" href="../index.php"><img src="../assets/images/logoPretinho.png" class="img_logo"></a>
+        <a class="navbar-brand" href="<?php echo BASE_URL; ?>home"><img src="assets/images/logoPretinho.png" class="img_logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,14 +40,14 @@
 
         <ul class="navbar-nav " >
           <li class="nav-item">
-            <a class="nav-link" href="../index.php">Home</a>
+            <a class="nav-link" href="<?php echo BASE_URL;?>">Home</a>
           </li>
                
           <li class="nav-item">
-            <a class="nav-link" href="../livro.php">O Livro</a>
+            <a class="nav-link" href=" <?php echo BASE_URL; ?>livro ">O Livro</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../cofre.php">Casinha de Economia</a>
+            <a class="nav-link" href="<?php echo BASE_URL; ?>cofre">Casinha de Economia</a>
           </li>
 
         </ul>
@@ -94,13 +88,12 @@
 
 
 
-
       </div>
 
       <div class="links_redes">
-        <a href="https://www.facebook.com/walmir.coelho.37" target="_blank"><img src="../assets/images/face.png" border="0" width="30" height="30"></a> 
-        <a href="#"><img src="../assets/images/insta.png" border="0" width="30" height="30"></a>
-        <a href="https://www.youtube.com/channel/UCjEELJpfZYSFJ26sUewJLwA" target="_blank"><img src="../assets/images/youtube.png" border="0" width="30" height="30"></a>
+        <a href="https://www.facebook.com/walmir.coelho.37" target="_blank"><img src="assets/images/face.png" border="0" width="30" height="30"></a> 
+        <a href="#"><img src="assets/images/insta.png" border="0" width="30" height="30"></a>
+        <a href="https://www.youtube.com/channel/UCjEELJpfZYSFJ26sUewJLwA" target="_blank"><img src="assets/images/youtube.png" border="0" width="30" height="30"></a>
 
       </div>
 
@@ -112,59 +105,4 @@
 
   </nav>
 
-
-
-  <div class="header-comprar">
-         
-        
-            AGUARDE. EM BREVE ESTAREMOS COM AS VENDAS ONLINE!
-        
-    
-  </div>
-
-  
-
-
- 
-<script src="https://code.jquery.com/jquery-3.4.1.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
-    <script src="../assets/js/bootstrap.min.js" ></script>
-
-
-   
-
-
-  </body>
-
-
-
-  </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <?php $this->loadViewInTemplate($viewName, $viewData); ?>
